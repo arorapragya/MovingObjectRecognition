@@ -7,7 +7,7 @@ pipeline {
             }
             steps {
                 sh """
-                echo "Building Artifact from Master branch"
+                echo "Building MOR from Master branch"
                 """
 
                 sh """
@@ -21,7 +21,7 @@ pipeline {
             }
             steps {
                 sh """
-                echo "Building Artifact from Develop branch"
+                echo "Building MOR from Develop branch"
                 """
                 sh """
                 echo "Deploying Code from Develop branch"
