@@ -4,7 +4,7 @@ pipeline {
        stage('Build Code') {
            steps {
                bat """
-               echo "Building Artifact"
+               echo "Building Moving Object Detector"
                """
            }
        }
