@@ -6,11 +6,11 @@ pipeline {
                 branch 'master'
             }
             steps {
-                sh """
+                bat """
                 echo "Building MOR from Master branch"
                 """
 
-                sh """
+                bat """
                 echo "Deploying Code from Master branch"
                 """
             }
@@ -20,10 +20,10 @@ pipeline {
                 branch 'develop'
             }
             steps {
-                sh """
+                bat """
                 echo "Building MOR from Develop branch"
                 """
-                sh """
+                bat """
                 echo "Deploying Code from Develop branch"
                 """
            }
